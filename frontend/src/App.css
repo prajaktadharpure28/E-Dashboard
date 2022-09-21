@@ -13,6 +13,7 @@
   padding: 5px;
   margin: 0;
   background-color: skyblue;
+  
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -42,4 +43,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  background-color: skyblue;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.inputBox{
+  display: block;
+  width: 300px;
+  padding: 10px;
+  margin: 25px;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+}
+
+.register{
+  margin-top: 50px;
+  margin-left: 30%;
+}
+
+.appButton{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
 }
